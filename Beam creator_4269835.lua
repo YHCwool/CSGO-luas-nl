@@ -46,7 +46,6 @@ local rendering_test = function()
     local local_player = entity.get_local_player()
 
     local origin_pos = local_player:get_origin()
-    local unpackS = { origin_pos.x, origin_pos.y, origin_pos.z }
 
     beam_creator(origin_pos, 255, 255, 255, 255)
 end
